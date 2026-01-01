@@ -1,5 +1,5 @@
-/** @jsxImportSource hono/jsx */
-import { Hono } from "hono";
+/** @jsxImportSource npm:hono/jsx */
+import { Hono } from "npm:hono";
 
 const app = new Hono();
 
@@ -28,7 +28,7 @@ app.get("/", (c) => {
             <h1 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
                 <i class="fa-solid fa-wand-magic-sparkles mr-2"></i>IMG 2 TEXT
             </h1>
-            <a href="https://t.me/soekyawwin" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
         </header>
 
         <main class="w-full max-w-2xl space-y-6">
